@@ -1,0 +1,51 @@
+.bitcoinrate
+{
+	position: fixed;
+	height: 40px;
+	width: 200px;
+	margin:auto;
+	border: 1px solid black;
+	background: #fff;
+	-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	z-index: 999999;
+}
+
+.newsticker
+{
+	height:40px;
+	overflow: hidden;
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.newsticker  li
+{
+    font-size: 35px;
+    white-space: nowrap;
+    list-style: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+}
+
+.flag
+{
+	width:30px;
+	height: 20px;
+	border:1px solid black;
+	margin-left:5px;
+	flex:1;
+}
+
+.amount
+{
+	margin-left:8px;
+	flex:1;
+}
+.currency
+{
+	margin-left:8px;
+	flex:1;
+}
